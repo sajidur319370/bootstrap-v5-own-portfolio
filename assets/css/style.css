@@ -11187,6 +11187,26 @@ textarea.form-control-lg {
   }
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: #9926f0;
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  background-color: #9926f0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -11229,6 +11249,23 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.4s;
+}
+
+.companies {
+  padding: 0 0 5rem 0;
+}
+.companies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.companies__logo-box img {
+  height: 100%;
+}
+.companies__logo-box img:hover {
+  filter: grayscale(150);
 }
 
 /*# sourceMappingURL=style.css.map */
