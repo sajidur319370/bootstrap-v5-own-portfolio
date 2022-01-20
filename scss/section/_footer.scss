@@ -13,11 +13,12 @@
         stroke: $primary;
         @include media-breakpoint-up(sm) {
             width: 4rem;
+            padding: 0.6rem;
         }
     }
     &__info {
+        padding-left: 1rem;
         font-weight: 600;
-        padding: 0.4rem;
         &--title {
             color: $white;
             text-decoration: none;

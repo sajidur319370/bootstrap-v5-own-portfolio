@@ -11481,11 +11481,12 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .contact-box__icon {
     width: 4rem;
+    padding: 0.6rem;
   }
 }
 .contact-box__info {
+  padding-left: 1rem;
   font-weight: 600;
-  padding: 0.4rem;
 }
 .contact-box__info--title {
   color: #fff;
