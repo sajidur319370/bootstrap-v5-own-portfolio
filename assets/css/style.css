@@ -11563,5 +11563,13 @@ textarea.form-control-lg {
   bottom: 1.875rem;
   z-index: 9999;
 }
+.back-to-top i {
+  font-size: 1rem;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*# sourceMappingURL=style.css.map */
